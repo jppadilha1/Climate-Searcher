@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Climate Search</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <main>
+        <h1>Pesquisador Climático</h1>
+        <div class="search-div">
+            <input type="text" name="search" placeholder="Qualquer cidade ou estado" class="search-text">
+            <input type="submit" value="Buscar" class="search-submit">
+        </div>
+        <div class="warning"></div>
+        <div class="painel">
+            <h2>Local Name</h2>
+            <div class="painel-containers">
+                <div class="painel-temperature">
+                    <div>
+                        <span style="color: #888;">Temperatura</span><br/>
+                        <div class="temperature">ºC</div>
+                    </div>
+                    <img src="" alt="" style="width: 75px; height: 75px;">
+                </div>
+                <div class="painel-wind">
+                    <div>
+                        <span style="color: #888;">Vento</span><br/>
+                        <div class="wind">km/h</div>
+                    </div>
+                    <div class="wind-area">
+                        <div class="wind-point" style="transform: rotate(0deg);"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="./script/script.js"></script>
+</body>
+</html>
