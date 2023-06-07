@@ -10,6 +10,13 @@ document.querySelector('.search-submit').addEventListener('click', () => {
     }
 });
 
+input.addEventListener('keyup', (e) => {
+    if(input.value !== '' && e.code === "Enter") {
+        painel.style.display = 'none';
+        Warning.innerHTML = 'Carregando...'
+        readInput();
+    }
+});
 
 async function readInput() {
     let url = `https://api.openweathermap.org/data/2.5/weather?q=${encodeURI(input.value)}&appid=9041a63e1d9b241be76ec78de5452c76&units=metric&lang=pt_br`;
