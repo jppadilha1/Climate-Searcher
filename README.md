@@ -7,3 +7,5 @@ Consumindo Api para retornar as condições climáticas de qualquer cidade ou es
 
 - Opção de botão e "Enter" para enviar
 - ícone da temperatura
+
+https://jppadilha1.github.io/Climate-Searcher/
